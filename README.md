@@ -2,6 +2,7 @@
 
 https://huggingface.co/google/gemma-3-27b-it
 
+![image](workflow.png)
 
 ## Install
 
