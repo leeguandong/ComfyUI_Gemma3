@@ -1,0 +1,15 @@
+[project]
+name = "gemma3"
+description = "ComfyUI nodes to use [a/gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["git+https://github.com/huggingface/transformers@v4.49.0-Gemma-3"]
+
+[project.urls]
+Repository = "https://github.com/leeguandong/ComfyUI_Gemma3"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_Gemma3"
+Icon = ""
