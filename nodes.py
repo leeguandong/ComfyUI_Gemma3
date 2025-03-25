@@ -5,7 +5,7 @@ import comfy.model_management as mm
 from PIL import Image
 import folder_paths
 from pathlib import Path
-from .transformers import AutoProcessor, Gemma3ForConditionalGeneration
+from transformers import AutoProcessor, Gemma3ForConditionalGeneration
 
 
 def tensor2pil(image):
