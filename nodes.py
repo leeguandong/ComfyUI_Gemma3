@@ -43,7 +43,6 @@ class Gemma3ModelLoader:
             os.makedirs(gemma_dir, exist_ok=True)
 
             # 下载模型到指定目录
-            model_id = "google/gemma-3-27b-it"
             model = Gemma3ForConditionalGeneration.from_pretrained(
                 model_id, cache_dir=gemma_dir, device_map="auto"
             ).eval().to(device)
